@@ -1,1 +1,3 @@
-# Starter Code For ReactJS with Typescript & Tailwindcss
+# ReactJS Starter
+
+```react-router-dom``` ```typescript``` ```tilwind-css``` ```prettier```
