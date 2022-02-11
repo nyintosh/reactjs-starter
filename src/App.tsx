@@ -1,10 +1,24 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 
 const App: React.FC = () => {
 	return (
-		<div className={`fixed inset-0 grid place-items-center`}>
-			<h1 className={`text-[clamp(1rem,4vw,8rem)]`}>Hello React.JS</h1>
-		</div>
+		<Routes>
+			<Route
+				path={'/'}
+				element={
+					<main
+						className={`absolute inset-0 grid place-items-center bg-slate-900`}
+					>
+						<h1
+							className={`text-[10vw] font-semibold text-gray-200`}
+						>
+							Hello React.JS!
+						</h1>
+					</main>
+				}
+			/>
+		</Routes>
 	)
 }
 
