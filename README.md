@@ -1,3 +1,3 @@
 # ReactJS Starter
 
-```react-router-dom``` ```typescript``` ```tilwind-css``` ```prettier```
+```react-router-dom``` ```typescript``` ```tailwindcss``` ```prettier```
