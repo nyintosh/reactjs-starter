@@ -1,17 +1,15 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-
 import App from './App'
-import './main.css'
+import './index.css'
 
-const $app = document.querySelector('#root')
+const root = createRoot(document.getElementById('app') as HTMLElement)
 
-ReactDOM.render(
+root.render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<App />
 		</BrowserRouter>
-	</React.StrictMode>,
-	$app
+	</React.StrictMode>
 )
